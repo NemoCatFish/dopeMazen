@@ -1,5 +1,6 @@
 html{
 	background-color: #242038;
+	height: 1800px;
 }
 
 #bg{
@@ -7,11 +8,11 @@ html{
 	background-color: #725AC1;
 	outline-style: solid;
 	outline-width: 5px;
-	outline-style: #CAC4CE;
+	outline-color: #CAC4CE;
 	left: 10%;
 	top: 10%;
 	width: 80%;
-	height: 1700px;
+	height: 1650px;
 
 }
 
@@ -36,19 +37,26 @@ html{
 }
 
 #verticalImage{
+	width: 270px;
+	height: 480px;
 	border-style: solid;
 	border-color: black;
 	border-width: 5px;
 }
 
+#p2{
+		margin-left: 20px;
+}
+
 #bottomImages{
+	position: relative;
+	left: 50%;
 	border-style: solid;
 	border-color: black;
 	border-width: 5px;
 	width: 540px;
 	height: 338px;
-	margin-bottom: 40%;
-	margin-left: 25%;
+	margin-left: -270px;
 }
 
 #contacts{
@@ -73,8 +81,20 @@ html{
 }
 
 p{
-	position: relative;
-	font-size: 64px;
+		position: relative;
+		font-size: 45px;
+	}
+
+@media only screen and (max-width: 1000px){
+	p{
+		position: relative;
+		font-size: 40px;
+	}
+
+	#contacts{
+		margin-left: -40px;
+	}
+
 }
 
 #Page{
