@@ -1,6 +1,6 @@
 html{
 	background-color: #242038;
-	height: 1800px;
+	height: 1750px;
 }
 
 #bg{
@@ -8,11 +8,11 @@ html{
 	background-color: #725AC1;
 	outline-style: solid;
 	outline-width: 5px;
-	outline-color: #CAC4CE;
+	outline-color: black;
 	left: 10%;
 	top: 10%;
 	width: 80%;
-	height: 1650px;
+	height: 1700px;
 
 }
 
@@ -28,9 +28,9 @@ html{
 
 #sideImages{
 	border-style: solid;
-	border-color: black;
+	border-color: #023047;
 	border-width: 5px;
-	margin-left: 40px;
+	margin-right: 10px;
 	margin-top: 40px;
 	width: 40%;
 	height: 40%;
@@ -40,7 +40,7 @@ html{
 	width: 270px;
 	height: 480px;
 	border-style: solid;
-	border-color: black;
+	border-color: #023047;
 	border-width: 5px;
 }
 
@@ -52,7 +52,7 @@ html{
 	position: relative;
 	left: 50%;
 	border-style: solid;
-	border-color: black;
+	border-color: #023047;
 	border-width: 5px;
 	width: 540px;
 	height: 338px;
