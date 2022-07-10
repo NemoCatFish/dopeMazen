@@ -10,7 +10,7 @@ html{
 	outline-width: 5px;
 	outline-color: black;
 	left: 10%;
-	top: 10%;
+	top: 3%;
 	width: 80%;
 	height: 1700px;
 
@@ -62,7 +62,7 @@ html{
 #contacts{
 	position: fixed;
 	top: 90%;
-	left: 75%;
+	left: 65%;
 	display: flex;
 	margin-left: 5%;
 	z-index: 2;
@@ -93,6 +93,7 @@ p{
 
 	#contacts{
 		margin-left: -40px;
+		top: 95%;
 	}
 
 }
