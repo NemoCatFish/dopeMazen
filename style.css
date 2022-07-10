@@ -1,0 +1,82 @@
+html{
+	background-color: #242038;
+}
+
+#bg{
+	position: absolute;
+	background-color: #725AC1;
+	outline-style: solid;
+	outline-width: 5px;
+	outline-style: #CAC4CE;
+	left: 10%;
+	top: 10%;
+	width: 80%;
+	height: 1700px;
+
+}
+
+#logo{
+	position: relative;
+	width: 590px;
+	height: 305px;
+	left: 50%;
+	margin-left: -295px;
+	top: 1%;
+}
+
+
+#sideImages{
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 40%;
+	height: 40%;
+}
+
+#verticalImage{
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+}
+
+#bottomImages{
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
+	width: 540px;
+	height: 338px;
+	margin-bottom: 40%;
+	margin-left: 25%;
+}
+
+#contacts{
+	position: fixed;
+	top: 90%;
+	left: 75%;
+	display: flex;
+	margin-left: 5%;
+	z-index: 2;
+}
+
+#tel{
+	margin-left: 10px;
+}
+
+#facebook{
+	margin-left: 10px;
+}
+
+#instagram{
+	margin-left: 10px;
+}
+
+p{
+	position: relative;
+	font-size: 64px;
+}
+
+#Page{
+	display: flex;
+}
