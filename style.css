@@ -1,5 +1,6 @@
 html{
 	background-color: #242038;
+	height: 1700px;
 }
 
 #bg{
@@ -11,7 +12,7 @@ html{
 	left: 10%;
 	top: 3%;
 	width: 80%;
-	height: 96%;
+	height: 1700px;
 
 }
 
@@ -85,6 +86,10 @@ p{
 	}
 
 @media only screen and (max-width: 1000px){
+	#bg{
+		height: 96%;
+	}
+
 	p{
 		position: relative;
 		font-size: 40px;
