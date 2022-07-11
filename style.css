@@ -1,30 +1,28 @@
 html{
-	background-color: #242038;
+	background-color: #033D06;
 	height: 1700px;
 }
 
-#bg{
+#logo{
 	position: absolute;
+	width: 590px;
+	height: 305px;
+	top: 50px;
+	left: 50%;
+	margin-left: -295px;
+}
+
+
+#bg{
+	position: relative;
 	background-color: #725AC1;
 	outline-style: solid;
 	outline-width: 5px;
 	outline-color: black;
-	left: 10%;
-	top: 3%;
-	width: 80%;
-	height: 1700px;
-
+	top: 300px;
+	width: 100%;
+	align-content: center;
 }
-
-#logo{
-	position: relative;
-	width: 590px;
-	height: 305px;
-	left: 50%;
-	margin-left: -295px;
-	top: 1%;
-}
-
 
 #sideImages{
 	border-style: solid;
@@ -45,7 +43,8 @@ html{
 }
 
 #p2{
-		margin-left: 20px;
+	margin-left: 20px;
+	width: 500px;
 }
 
 #bottomImages{
@@ -60,24 +59,29 @@ html{
 }
 
 #contacts{
-	position: fixed;
-	top: 90%;
-	left: 65%;
 	display: flex;
-	margin-left: 5%;
-	z-index: 2;
+	flex-direction: row;
+	height: 65px;
 }
 
 #tel{
 	margin-left: 10px;
+	margin-top: 5px;
 }
 
 #facebook{
 	margin-left: 10px;
+	margin-top: 5px;
 }
 
 #instagram{
 	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#tiktok{
+	margin-left: -10px;
+	margin-top: 5px;
 }
 
 p{
@@ -85,7 +89,7 @@ p{
 		font-size: 45px;
 	}
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 768px){
 	#bg{
 		height: 96%;
 	}
